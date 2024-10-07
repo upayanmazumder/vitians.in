@@ -1,0 +1,26 @@
+{
+  "name": "vitians.in",
+  "version": "1.0.0",
+  "description": "A community site for vitians",
+  "scripts": {
+    "dev": "cd qwik && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upayanmazumder/vitians.in.git"
+  },
+  "keywords": [
+    "vit",
+    "vitians",
+    "community",
+    "vellore",
+    "college",
+    "university"
+  ],
+  "author": "upayanmazumder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upayanmazumder/vitians.in/issues"
+  },
+  "homepage": "https://github.com/upayanmazumder/vitians.in#readme"
+}
