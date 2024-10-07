@@ -38,10 +38,9 @@ export default component$(() => {
           </Infobox>
 
           <br/>
-          <p><a href='/profile/allergens' id="links">Set up Allergens ↪</a></p>
 
           <Form action={signOut} class={sessionStyles.form}>
-            <input type="hidden" name="redirectTo" value="/a/signedout" />
+            <input type="hidden" name="redirectTo" value="/a/signedout/" />
             <button class={sessionStyles.button}>Sign Out</button>
           </Form>
         </div>
