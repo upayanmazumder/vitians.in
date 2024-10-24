@@ -1,15 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import Four04 from "../components/404/404";
 
 export default component$(() => {
   return (
     <>
-      <div role="presentation" class="ellipsis"></div>
-      <div class="container container-center">
-        <h1>404</h1>
-        <br />
-        <p>Sorry, the page you are looking for does not exist.</p>
-      </div>
+      <Four04/>
     </>
   );
 });

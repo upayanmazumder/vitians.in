@@ -8,7 +8,7 @@ export default component$(() => {
     <header class={styles.header}>
       <div class={styles.container}>
         <div class={styles.logoContainer}>
-          <ImgIconTransparent alt="Food App" class={styles.logoImage} />
+          <ImgIconTransparent alt="Vitians" class={styles.logoImage} />
           <h2 class={styles.logoText}>VITIANS</h2>
         </div>
         <nav class={styles.nav}>

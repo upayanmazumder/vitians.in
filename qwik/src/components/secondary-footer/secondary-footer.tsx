@@ -18,7 +18,7 @@ export default component$(() => {
       <div class={secFooterStyles.container}>
         
         <div class={secFooterStyles.boxCompany}>
-          <p class={secFooterStyles.title}>Fork Feed</p>
+          <p class={secFooterStyles.title}>Vitians</p>
           <ul class={secFooterStyles.links}>
             <li><a href="/terms-of-service" class={secFooterStyles.link}>Terms of Service</a></li>
             <li><a href="/privacy-policy" class={secFooterStyles.link}>Privacy Policy</a></li>
