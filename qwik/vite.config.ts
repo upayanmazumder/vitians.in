@@ -101,6 +101,14 @@ function errorOnDuplicatesPkgDeps(
 
   // Throw an error with the constructed message.
   if (duplicateDeps.length > 0) {
-    throw new Error(msg);
+    const error = new Error(msg);
+    // Avoid setting the `code` property
+    Object.defineProperty(error, 'code', {
+      value: 'DUPLICATE_DEPENDENCIES',
+      writable: false,
+      enumerable: true,
+      configurable: true,
+    });
+    throw error;
   }
 }
