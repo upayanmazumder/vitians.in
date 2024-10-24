@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "@auth/firebase-adapter": "^2.7.2",
+    "dotenv": "^16.4.5",
     "firebase-admin": "^12.6.0",
     "next-auth": "^4.24.9"
   }
