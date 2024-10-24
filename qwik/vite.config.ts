@@ -12,7 +12,7 @@ const { dependencies = {}, devDependencies = {} } = pkg as any as {
 };
 errorOnDuplicatesPkgDeps(devDependencies, dependencies);
 
-export default defineConfig(({ command, mode }): UserConfig => {
+export default defineConfig((): UserConfig => {
   return {
     plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
     optimizeDeps: {
