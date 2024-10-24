@@ -1,3 +1,4 @@
+import { FirestoreAdapter } from "@auth/firebase-adapter";
 import { QwikAuth$ } from "@auth/qwik";
 import Google from "@auth/qwik/providers/google";
 
@@ -12,6 +13,7 @@ export const { onRequest, useSession, useSignIn, useSignOut } = QwikAuth$(
         },
       }),
     ],
+    adapter: FirestoreAdapter(),
     pages: {
       signIn: "/a/signin/",
       signOut: "/a/signout/",
